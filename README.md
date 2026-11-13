@@ -39,6 +39,8 @@ My reused laptop and GL.iNet GL-X3000 Spitz AX are available for later work. The
 | Query history troubleshooting | Level `3 — Anonymous mode` explained the empty Query Log. On 19 October Codex applied level `0`, reloaded and verified it persisted, with query-file logging enabled and Pi-hole Active. A subsequent allowed test query is now visible in Query Log. |
 | Test-rule cleanup | A temporary Exact allow appeared alongside the Exact deny. Both test entries were deleted; learner capture and Codex's reloaded Domains view show zero entries. |
 | Pi-hole configuration backup — 20 October | I exported and saved a private ZIP. Codex's read-only checks passed ZIP CRC, TOML parsing and both SQLite quick checks; the export has no temporary domain rules or query history. This is structural verification, not a tested restore. |
+| Desktop-only Pi-hole pilot | Default Windows lookup and a controlled Chrome request reached Pi-hole; forwarding and cached answers captured. |
+| Desktop DNS rollback and return — 11 November | Automatic Google DNS and the return to Pi-hole both resolved the test domain. On 12 November I reported that a usual website and ordinary app also worked. |
 | Household DNS filtering | Not changed during this exercise; review privacy and recovery before any wider rollout |
 
 ![Pi-hole Query Log evidence for the completed DNS cycle](evidence/images/dns-cycle.png)
@@ -52,5 +54,7 @@ The configuration backup remains private, outside this project draft. It is not 
 Start with the [Pi-hole project report](docs/pi-hole-project-report.md) for the architecture, decisions, command explanations and verified DNS results. A [PDF version](docs/pi-hole-project-report.pdf) is available for download. The report uses selected sanitized evidence and credits the guidance behind this build.
 
 The [build journal](journal/2026-10-16-pi-foundation.md) and [terminal evidence](evidence/2026-10-16-terminal-extract.md) preserve the detailed process. The [Pi foundation results](results/2026-10-17-pi-foundation.md) and [local recall page](results/pi-foundation.html) include short learning prompts. The longer illustrated personal guide stays outside this repository.
+
+The [desktop DNS pilot journal](journal/2026-10-21-pihole-desktop-pilot.md) follows the next practical step: using Pi-hole from the desktop, checking Chrome, and practicing DNS rollback with selected sanitized evidence.
 
 I’m doing this as a guided build, using Codex for explanations, troubleshooting assistance and documentation. The journal distinguishes my actions from the diagnostics Codex performed.

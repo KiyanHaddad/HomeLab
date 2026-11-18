@@ -8,6 +8,21 @@ The active compute host is now a mini PC running Ubuntu Server. SSH after reboot
 
 The evidence distinguishes captured output, reported actions and pending checks. Private identifiers are omitted from the project record.
 
+## Explore the build
+
+**Pi-hole and networking**
+
+[![Pi-hole report](assets/buttons/pi-hole-report.svg)](docs/pi-hole-project-report.md)
+[![Report PDF](assets/buttons/report-pdf.svg)](docs/pi-hole-project-report.pdf)
+[![DNS pilot](assets/buttons/dns-pilot.svg)](journal/2026-10-21-pihole-desktop-pilot.md)
+
+**Mini PC foundation**
+
+[![Mini PC journal](assets/buttons/mini-pc-journal.svg)](journal/2026-11-17-minipc-foundation.md)
+[![Host baseline](assets/buttons/host-baseline.svg)](evidence/images/minipc-host-baseline.png)
+[![Docker check](assets/buttons/docker-check.svg)](evidence/images/minipc-docker-check.png)
+[![CLI versions](assets/buttons/cli-versions.svg)](evidence/images/minipc-cli-versions.png)
+
 ## Current setup
 
 ```text

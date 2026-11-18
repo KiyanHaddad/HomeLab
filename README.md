@@ -12,16 +12,11 @@ The evidence distinguishes captured output, reported actions and pending checks.
 
 **Pi-hole and networking**
 
-[![Pi-hole report](assets/buttons/pi-hole-report.svg)](docs/pi-hole-project-report.md)
-[![Report PDF](assets/buttons/report-pdf.svg)](docs/pi-hole-project-report.pdf)
-[![DNS pilot](assets/buttons/dns-pilot.svg)](journal/2026-10-21-pihole-desktop-pilot.md)
+[Pi-hole report](docs/pi-hole-project-report.md) · [Report PDF](docs/pi-hole-project-report.pdf) · [DNS pilot](journal/pihole-desktop-pilot.md)
 
 **Mini PC foundation**
 
-[![Mini PC journal](assets/buttons/mini-pc-journal.svg)](journal/2026-11-17-minipc-foundation.md)
-[![Host baseline](assets/buttons/host-baseline.svg)](evidence/images/minipc-host-baseline.png)
-[![Docker check](assets/buttons/docker-check.svg)](evidence/images/minipc-docker-check.png)
-[![CLI versions](assets/buttons/cli-versions.svg)](evidence/images/minipc-cli-versions.png)
+[Mini PC journal](journal/mini-pc-foundation.md) · [Host baseline](evidence/images/minipc-host-baseline.png) · [Docker check](evidence/images/minipc-docker-check.png) · [CLI versions](evidence/images/minipc-cli-versions.png)
 
 ## Current setup
 
@@ -74,10 +69,10 @@ The configuration backup remains private, outside this project draft. It is not 
 
 Start with the [Pi-hole project report](docs/pi-hole-project-report.md) for the architecture, decisions, command explanations and verified DNS results. A [PDF version](docs/pi-hole-project-report.pdf) is available for download. The report uses selected sanitized evidence and credits the guidance behind this build.
 
-The [build journal](journal/2026-10-16-pi-foundation.md) and [terminal evidence](evidence/2026-10-16-terminal-extract.md) preserve the detailed process. The [Pi foundation results](results/2026-10-17-pi-foundation.md) and [local recall page](results/pi-foundation.html) include short learning prompts. The longer illustrated personal guide stays outside this repository.
+The [build journal](journal/pi-foundation.md) and [terminal evidence](evidence/pi-terminal-evidence.md) preserve the detailed process. The [Pi foundation results](results/pi-foundation.md) and [local recall page](results/pi-foundation.html) include short learning prompts. The longer illustrated personal guide stays outside this repository.
 
-The [desktop DNS pilot journal](journal/2026-10-21-pihole-desktop-pilot.md) follows the next practical step: using Pi-hole from the desktop, checking Chrome, and practicing DNS rollback with selected sanitized evidence.
+The [desktop DNS pilot journal](journal/pihole-desktop-pilot.md) follows the next practical step: using Pi-hole from the desktop, checking Chrome, and practicing DNS rollback with selected sanitized evidence.
 
-The [mini PC foundation journal](journal/2026-11-17-minipc-foundation.md) records the move to a dedicated Ubuntu compute host, its baseline checks, Docker verification and installed CLI versions. The next goal is to run Linux workloads on the mini PC while keeping desktop-specific actions on the desktop, then measure real resource use.
+The [mini PC foundation journal](journal/mini-pc-foundation.md) records the move to a dedicated Ubuntu compute host, its baseline checks, Docker verification and installed CLI versions. The next goal is to run Linux workloads on the mini PC while keeping desktop-specific actions on the desktop, then measure real resource use.
 
 I’m doing this as a guided build, using Codex for explanations, troubleshooting assistance and documentation. The journal distinguishes my actions from the diagnostics Codex performed.

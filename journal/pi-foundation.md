@@ -118,7 +118,7 @@ I supplied the next screenshot with an empty Domains table and two deletion-succ
 
 I repeated the desktop lookup and supplied its terminal output. `example.com` again returned a **Non-authoritative answer** with public IPv4 addresses **`172.66.147.243`** and **`104.20.23.154`**. Codex expanded the latest Query Log row and observed **Forwarded**, reply from **`149.112.112.112#53`**, reply type **IP**, database ID **34**, and a displayed **10.5 ms**. This verifies restoration after cleanup. The older allowed and blocked rows remained visible alongside it.
 
-The controlled **allowed → blocked → restored** exercise is complete. Household DNS settings remain unchanged; the rule's Default group did not inherently make it desktop-only. The [results page](../results/2026-10-17-pi-foundation.md) records the completed cycle.
+The controlled **allowed → blocked → restored** exercise is complete. Household DNS settings remain unchanged; the rule's Default group did not inherently make it desktop-only. The [results page](../results/pi-foundation.md) records the completed cycle.
 
 ## Saving a configuration backup — 20 October 2026
 
@@ -130,7 +130,7 @@ Next is reviewing the public draft and author identity before the first local co
 
 ## Evidence and help
 
-The [terminal evidence extract](../evidence/2026-10-16-terminal-extract.md) separates captured output, reported results and pending checks. Codex helped explain commands, troubleshoot connectivity and draft these notes. I performed the Pi setup and SSH actions; the router diagnostics performed by Codex are credited above.
+The [terminal evidence extract](../evidence/pi-terminal-evidence.md) separates captured output, reported results and pending checks. Codex helped explain commands, troubleshoot connectivity and draft these notes. I performed the Pi setup and SSH actions; the router diagnostics performed by Codex are credited above.
 
 ## References
 

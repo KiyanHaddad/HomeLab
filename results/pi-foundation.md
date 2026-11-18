@@ -34,7 +34,7 @@ The first Pi-hole exercise is also complete: **allowed → blocked → restored*
 
 The earlier OS identification capture showed Debian 13, Trixie. The initial update process finished according to my session report; I did not capture the complete package transaction. The Archer is in AP mode on the household LAN. Pi-hole installation is user-reported; dashboard access has since been browser-observed. The controlled DNS cycle, rule cleanup and structural configuration-backup checks are complete. Restore testing, network isolation and household rollout remain future work.
 
-The [evidence extract](../evidence/2026-10-16-terminal-extract.md) has the output and its limits. The [build journal](../journal/2026-10-16-pi-foundation.md) explains the router access and login problems along the way.
+The [evidence extract](../evidence/pi-terminal-evidence.md) has the output and its limits. The [build journal](../journal/pi-foundation.md) explains the router access and login problems along the way.
 
 ## Remember the maintenance cycle
 
